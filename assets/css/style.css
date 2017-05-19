@@ -1,26 +1,120 @@
-<style>
-
 * {
   box-sizing: border-box;
   text-align: center;
 }
 
 body {
-  background-color: #777;
-  color: #ebebeb;
-  width: 960px;
-  font-family: Arial, Helvetica Neue, Helvetica, sans-serif; 
+  background-color: #e5e5e5;
+  font-family: sans-serif; 
   font-size: 18px;
   text-align: center;
+  font-family: Georgia, Times, Times New Roman, serif;
+}
+
+.about {
+  background-color: #ffffff;
+  font-family: sans-serif; 
+  font-size: 12px;
+  text-align: center;
+  margin-left: 75px;
+  margin-right: 75px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 550px;
+  height: 400px; 
+  font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+}
+
+.connect {
+  background-color: #ffffff;
+  float: right;
+  font-family: sans-serif; 
+  font-size: 12px;
+  text-align: center;
+  margin-right: 75px;
+  width: 100px;
+  height: 200px; 
+  font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+}
+
+h1, h2 {
+  float: left;
+  color: #4aaaa5;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 24px;
+  font-family: Georgia, Times, Times New Roman, serif;
+}
+
+img {
+  float: left;
+    margin: 0 0 10px 10px;
+}
+
+#relative {
+  position: relative;
+  height: 100px;
+  padding: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  background: #ffffff;
+  border-bottom: 1px solid #cccccc;
+
+}
+
+#absolute {
+  position: absolute;
+  left: 75px;
+  top: 20px;
+  right: 0px;
+  bottom: 0;
+  width: 200px;
+  height: 80px;
+  padding: 20px;
+  text-align: center;
+  background: #4aaaa5;
+  font-weight: bold;
+  color: white;
+  font-family: Georgia, Times, Times New Roman, serif;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #ffffff;
+    background-color: #ffffff;
+    float: right;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: #666;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+p {
+  color: #777777;
 }
 
 footer {
-  padding: 20px;
-  margin-top: 20px;
-  background: #ccc;
-  box-sizing: border-box;
+  position: fixed;
+  background-color: #666666;
+  border: 2px solid #4aaaa5;
+  width: 100%;
+  height: 75px;
+  bottom: 0px;
   text-align: center;
-  clear: both;
 }
 
-</style>
+h3 {
+  padding-top: 50px;
+  color: #777777;
+}

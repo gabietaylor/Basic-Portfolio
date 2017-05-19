@@ -119,13 +119,13 @@ footer {
   height: 75px;
   bottom: 0px;
   left: 0px;
-  top: auto;
+  margin-top: 20px;
   text-align: center;
   clear: both;
-  border-top: 2px solid #FFFFFF;    
+  border-top: 2px solid black;    
 }
 
-h3 {
+h2 {
   padding-top: 50px;
   color: #777777;
   text-align: center;

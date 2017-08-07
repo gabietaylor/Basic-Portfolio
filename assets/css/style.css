@@ -238,3 +238,8 @@ input[type=submit] {
   background: #4aaaa5;
   border: 0 none;
 }
+
+#resize {
+  height: 200px;
+  width: 200px;
+}
